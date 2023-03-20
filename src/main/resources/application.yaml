@@ -1,0 +1,16 @@
+spring:
+  mail:
+    host: smtp.yandex.ru
+    port: 465
+    protocol: smtps
+    username: <login>@yandex.ru
+    password: <password>
+    properties:
+      mail:
+        smtps:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            checkserveridentity: true
+            trust: smtp.yandex.ru
